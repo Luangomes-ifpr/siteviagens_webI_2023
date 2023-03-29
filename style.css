@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+/* Lista desordenada*/
 ul {
     list-style: none;
     font-weight: bold;
@@ -25,7 +25,7 @@ button {
 }
 
 header {
-    background:no-repeat center/cover url("assets/5-motivos-para-conhecer-a-Tailandia.jpg") ;
+    background:no-repeat center/cover url("assets/Tailandinha.jfif") ;
     height: calc(100vh - 150px);
 }
 
@@ -56,4 +56,39 @@ header nav p {
 .header-content h1 {
     margin-bottom: 10px;
     font-size: 3rem;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+}
+/*adicionamos o fundo colorido*/
+.pacotes {
+    background: #70ef96;
+    padding: 15px;
+}
+
+.pacotes .pacotes-card {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+
+}
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
 }
