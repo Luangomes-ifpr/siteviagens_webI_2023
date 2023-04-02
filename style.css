@@ -92,3 +92,29 @@ header nav p {
     margin: 25px;
     position: relative;
 }
+.pacotes .card-image2 {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+.pacotes .card2 {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+.pacotes .card-image3 {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+.pacotes .card3 {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
