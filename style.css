@@ -148,13 +148,11 @@ header nav p {
     font-weight: bold;
 }
 
-/*Alterei a partir daqui, antes disso foi na aula*/
 .servicos .servicos-title {
     margin: 35px 0;
     text-align: center;
 }
 .servicos {
-    background: #caf598;
     padding: 15px;
 }
 
@@ -176,22 +174,50 @@ header nav p {
 
 }
 
-.servicos .card-content {
-    padding: 0 15px;
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    /*Espaçamento entre os icons e o texto*/
 
 }
 
-.servicos .card-content ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
+.servicos .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+    /*Incluida a cor quando passa o mouse por cima do icon*/
 }
 
-.servicos .card-content ul li {
-    font-size: 0.6rem;
-    display: flex;
-    align-items: center;
-    margin: 3px 0;
-    color: grey;
+.servicos .card h3 {
     font-weight: bold;
+    /*Colocado em negrito os títulos dos cards de servicos*/
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+    /*Alinhado ao centro as informações dos cards de servicos*/
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+    /*aumentado a distancia do botão saiba mais */
+}
+
+.contatos {
+    padding: 20px;
+    height: 250px;
+    background: grey;
+    text-align: center;
+}
+
+.contatos .email svg {
+    margin: left;
+    color: white;
+}
+
+.contatos .instagram svg {
+    color:red
 }
