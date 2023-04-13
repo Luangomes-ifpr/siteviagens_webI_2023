@@ -144,7 +144,7 @@ header nav p {
 .pacotes .card .card-tag p {
     margin: 0;
     font-size: 0,.8rem;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -154,6 +154,7 @@ header nav p {
 }
 .servicos {
     padding: 15px;
+    background: rgb(228, 195, 163);
 }
 
 .servicos .servicos-card {
@@ -194,7 +195,7 @@ header nav p {
 }
 
 .servicos .card p {
-    color: grey;
+    color: rgb(99, 98, 98);
     font-size: 0.8rem;
     text-align: center;
     /*Alinhado ao centro as informações dos cards de servicos*/
@@ -208,16 +209,69 @@ header nav p {
 
 .contatos {
     padding: 20px;
-    height: 250px;
-    background: grey;
-    text-align: center;
+    font-size: 1rem;
+    background: rgb(155, 147, 147);
+    text-align: left;
+}
+
+.contatos h2 {
+    margin-left: 675px;
 }
 
 .contatos .email svg {
-    margin: left;
     color: white;
+    vertical-align: middle; /*alinhou o svg com o texto*/
+    padding: 10px;
+    margin-left: 600px;
 }
 
 .contatos .instagram svg {
-    color:red
+    color:rgb(175, 14, 14);
+    vertical-align:middle;
+    padding: 10px;
+    margin-left: 600px;
+}
+
+.contatos .facebook svg {
+    color: white;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 600px;
+}
+
+.contatos .twitter svg {
+    color: blue;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 600px;
+}
+
+.contatos .telefone svg {
+    color: black;
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 600px;
+}
+
+.contatos .desenvolvedor {
+    margin-left: 610px;
+}
+
+.contatos .email svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+.contatos .instagram svg:hover{
+    stroke: #ff0000;
+    transform: scale(1.1);
+}
+
+.contatos .facebook svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.contatos .twitter svg:hover{
+    stroke: #1965f1;
+    transform: scale(1.1);
 }
